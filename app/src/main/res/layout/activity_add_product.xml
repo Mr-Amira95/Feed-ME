@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProductActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Add new Product"
+            android:textColor="@color/primary_color"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="50dp"/>
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/add_image_placeholder"
+            android:scaleType="centerCrop"
+            android:background="#DADADA"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextnames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            android:hint="Description"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="numberDecimal"
+            android:hint="Price"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/component"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Component"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:drawableEnd="@drawable/ic_baseline_add_24"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="20dp">
+
+
+            <EditText
+                android:id="@+id/textViewcomponent5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/textViewcomponent4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                 />
+
+            <EditText
+                android:id="@+id/textViewcomponent3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                 />
+
+            <EditText
+                android:id="@+id/textViewcomponent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                 />
+
+            <EditText
+                android:id="@+id/textViewcomponent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                 />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/primary_color"
+            android:text="Add Product"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</ScrollView>

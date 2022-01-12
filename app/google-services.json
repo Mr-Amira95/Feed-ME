@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "907511670673",
+    "project_id": "digital-method-235716",
+    "storage_bucket": "digital-method-235716.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907511670673:android:d7a8c5fcb85afcefa61c30",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907511670673-8v79o12jrepv2frqi8id6oj1m4sfjktl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFLWYDtRZO-5miSFxVnVcELjIoYnM8CHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907511670673-8v79o12jrepv2frqi8id6oj1m4sfjktl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
